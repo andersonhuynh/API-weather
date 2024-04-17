@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "bookmania", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+.content p {
+        margin-left: 10em;
+        margin-right: 10em;
+
+}
+    /* margin: 10em; */
+
+#temp{
+    font-style: italic;
+}
+
+#tamp{
+    font-size:3em;
+    font-weight:600;
+    text-decoration:underline 1vw
+}
+
+#forecast{
+    font-family: "bio-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    font-family: "bio-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
